@@ -66,17 +66,13 @@ a {
     width: 100%;
     width: 1158px;
     padding: 0 15px;
-    
+    margin: 0 auto;
+    border-bottom: 1px solid #e7e9fc;
+        
 
-    
-
-
-}
-.page-header{
-border-bottom: 1px solid #e7e9fc;
-margin: 0 auto;
 
 }
+
 .logo{
 font-family: "Raleway" , sans-serif;
 font-size: 18px;
@@ -109,7 +105,7 @@ color: #2E2F42;
 .nav_list{
     display: flex;
     gap: 40px;
-    margin: 0 auto;
+    
 }
 .nav_link{
 font-family: "Roboto";
