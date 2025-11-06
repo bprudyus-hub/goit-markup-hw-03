@@ -59,7 +59,7 @@ a {
 /* #endregion common */
 
 
-/* #region header  */
+/* #region header  */ 
 .header.container{
     display: flex;
     align-items: center;
@@ -75,6 +75,7 @@ a {
 }
 .page-header{
 border-bottom: 1px solid #e7e9fc;
+
 }
 .logo{
 font-family: "Raleway" , sans-serif;
@@ -213,7 +214,7 @@ padding: 120px 0;
     padding: 0 15px;  
 }
 .strategy-item{
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .strategy-title{
