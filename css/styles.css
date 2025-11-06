@@ -59,7 +59,10 @@ a {
 
 
 /* #region header  */ 
-.header.container{
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header{
     display: flex;
     align-items: center;
     height: 72px;
@@ -67,11 +70,8 @@ a {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    border-bottom: 1px solid #e7e9fc;
-        
-
-
 }
+
 
 .logo{
 font-family: "Raleway" , sans-serif;
@@ -98,7 +98,7 @@ color: #2E2F42;
     justify-content: space-between;
     align-items: center;
     margin-right: auto;
-    
+  
    
   
 }
@@ -145,8 +145,7 @@ padding: 24px 0;
 /* #endregion header */
 
 /* #region hero */
-.hero.container{
-    /* height: 600px; */
+.hero{
     width: 100%;
  max-width: 1158px;
 }
@@ -197,7 +196,7 @@ background-color:#404BBF;
 /* #endregion hero */
 
 /* #region strategy */
-.strategy.container {
+.strategy   {
     width: 100%;
     
 }
