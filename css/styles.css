@@ -61,7 +61,7 @@ a {
 /* #region header  */ 
 .page-header {
 border-bottom: 1px solid #e7e9fc;
-/* margin: 0 auto; */
+
     
 }
 .header{
@@ -71,7 +71,7 @@ height: 72px;
 width: 100%;
 width: 1158px;
 padding: 0 15px;
-/* margin: 0 auto; */
+margin: 0 auto;
 }
 
 .logo{
@@ -99,7 +99,7 @@ color: #2E2F42;
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin-right: auto;
+margin-right: 332px;
   
    
   
