@@ -61,6 +61,8 @@ a {
 /* #region header  */ 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
+    
 }
 .header{
     display: flex;
@@ -69,7 +71,7 @@ a {
     width: 100%;
     width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 
@@ -198,9 +200,11 @@ background-color:#404BBF;
 /* #region strategy */
 .strategy   {
 width: 100%;
-padding: 120px 0;
 }
-
+.strategy-page{
+ 
+    padding: 120px 0;
+}
 
 .strategy-list{
 display: flex;
