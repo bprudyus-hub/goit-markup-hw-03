@@ -64,14 +64,14 @@ a {
    
     
 }
-.header{
+.header.container{
     display: flex;
     align-items: center;
     height: 72px;
     width: 100%;
     width: 1158px;
     padding: 0 15px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 
